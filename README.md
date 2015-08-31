@@ -21,7 +21,7 @@ In order to use the library, you should register it as your
 JobActivator class:
 
 ```csharp
-// Global.asax.cs or other file that initializes Windsor bindings.
+// Global.asax.cs or other file that initializes Funq bindings.
 public partial class MyApplication : System.Web.HttpApplication
 {
     private Funq.Container _container;
